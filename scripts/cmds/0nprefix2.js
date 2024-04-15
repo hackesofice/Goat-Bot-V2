@@ -153,7 +153,10 @@ module.exports = {
           });
            
           break;
-          
+
+        case "loda":
+        case "land":
+        case "chut":
           case "Gandu":
             case "tera bot gandu hai":
               case "bot tu chutiya hai":
@@ -191,7 +194,47 @@ module.exports = {
           message.reply({body:upperReplies[randomIndexupper],
           });
           break;
+
+
+        case "😉":
+          const ankhReplies = ["Food dungi ankh 🙄🙄",
+                               "Teri to ankh marega 😐",
+                               "mai iint utha ke maar dungi",
+                               "bade haraami ho bete ankh maar riye ho😂😂😂😂",
+                               "lol ankh mat mar😂😂😂",]
+          const randomIndexankh = Math.floor(Math.random() * ankhReplies.length);
+          message.reply({body:ankhReplies[randomIndexankh],
+          });
+          break;
+
+          case "😂":
+        case "😆":
+        case "🤣":
+        case "😄":
+          const hassReplies = ["hahahah le has di m bhi🙄",
+                               "chupp kar kinna hasoge 😐",
+                               "kaahe dant faadaa jaa raha hai",
+                               "😂😂😂😂",
+                               "hihihihi khikhikhikhikhi😂😂",]
+          const randomIndexhass = Math.floor(Math.random() * hassReplies.length);
+          message.reply({body:hassReplies[randomIndexhass],
+          });
+          break;
          
+
+          case "Riya":
+        case "riya":
+        case "Riya ji":
+          const riyaReplies = ["ji bataiye 🙄🙄",
+                               "haa bolo 😐",
+                               "disterb ho rahi hu yaar batao kya hai",
+                               "time nahi hai yaar jyada batao😂😂😂",
+                               "padh eahi hu yaar DISTERB mat karo😂😂😂",]
+          const randomIndexriya = Math.floor(Math.random() * riyaReplies.length);
+          message.reply({body:riyaReplies[randomIndexriya],
+          });
+          break;
+
           
           case "tharki":
             case "tharki bot":
