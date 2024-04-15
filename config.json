@@ -122,11 +122,11 @@
   },
   "hideNotiMessage": {
     "commandNotFound": false,
-    "adminOnly": false,
+    "adminOnly": true,
     "threadBanned": false,
     "userBanned": false,
     "needRoleToUseCmd": false,
-    "needRoleToUseCmdOnReply": false,
+    "needRoleToUseCmdOnReply": true,
     "needRoleToUseCmdOnReaction": false
   },
   "logEvents": {
