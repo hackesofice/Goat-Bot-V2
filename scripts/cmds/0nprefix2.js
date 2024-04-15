@@ -108,7 +108,7 @@ module.exports = {
 
 
 
-            
+        case "oi":  
         case "hi":
           case "hlo":
             case "hello":
@@ -331,7 +331,7 @@ module.exports = {
 
         case "🙈":
         const shReplies = [
-  "00Y HO00Y SHARMAA GAYIIIII 😝😝😝😝😝😝😝😝😝😝😝😝😝",
+  "00Y HO00Y SHARMAA GAYI😝😝😝😝😝😝😝😝😝😝😝😝😝",
   "ACCHAA JII AAPKOOO BHII SHARAM AATI HAII 🤣🤣🤣🤣🤣🤣🤣",
   "NAATAK MAT KAROO HAMEE PATAA HAI AAPKO0O EEQ BHIII SHARAM NAA HAI 😝😝😛😛😛😛😛😛",
   "SUUHAAGRAATT THOODII NAA HAIIIJOO SHARMAA RHII H000🤭🤭🤭🤭🤭🤭🤭🤭🤭🤭",
